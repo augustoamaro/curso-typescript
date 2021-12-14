@@ -6,4 +6,9 @@ Seção 1: Introdução
 - Instalando TypeScript/Node (sudo npm i -g ts-node)
 - Instalando Live Server (npm i -s live-server)
 - Monitorar mudanças no TypeScript (tsc -w)
+- Executar projeto (tsc -w / npm start)
+
+Seção 2: Usando Tipos
+
+-
 

@@ -10,10 +10,11 @@ Seção 1: Introdução
 
 
 Seção 2: Usando Tipos
-
 - String, number, boolean, tipos explícitos, array, tuplas, enums, any, funções, objeto, alias, union types, never, null
 - Transformar código JS em TS
 
 
 Seção 3: Entendendo o Compilador TypeScript
+- Compilação e "noEmitOnError"
+- Evitando "Any" implícito
 

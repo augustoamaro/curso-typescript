@@ -8,7 +8,7 @@ function soma(a, b) {
 }
 let qualquerCoisa;
 qualquerCoisa = 12;
-qualquerCoisa = 'abc';
+qualquerCoisa = 'abcd';
 function saudar(isManha) {
     let saudacao;
     if (isManha) {

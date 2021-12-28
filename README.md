@@ -18,3 +18,7 @@ Seção 3: Entendendo o Compilador TypeScript
 - Compilação e "noEmitOnError"
 - Evitando "Any" implícito
 
+
+Seção 4: TypeScript e os novos recursos ECMAScript
+- Tratando let e const
+- Arrow Functions

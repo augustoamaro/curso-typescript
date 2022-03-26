@@ -52,10 +52,10 @@ console.log(carro);
 function retornaMeuNome() {
     return nome;
 }
-console.log(retornaMeuNome());
+console.log("Função: ", retornaMeuNome());
 function digaOi() {
     // tipo vazio
-    console.log("Oi");
+    console.log("Oi", "Oi");
 }
 digaOi();
 function multiplicar(numA, numB) {
@@ -65,7 +65,7 @@ console.log(multiplicar(2, 5));
 // tipo função
 let calculo;
 calculo = multiplicar;
-console.log(calculo(5, 6));
+console.log("Calculo: ", calculo(5, 6));
 // objetos
 let usuario = {
     nome: "João",
@@ -96,7 +96,7 @@ let funcionario2 = {
     },
 };
 console.log(funcionario.supervisores);
-console.log("Horário 8h: ", funcionario.baterPonto(8));
+console.log("Horário 8h: ", funcionario.baterPonto(13));
 console.log("Horario 9h: ", funcionario.baterPonto(5));
 // union types
 let nota = 10;

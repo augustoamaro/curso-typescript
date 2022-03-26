@@ -65,11 +65,11 @@ function retornaMeuNome(): string {
   return nome;
 }
 
-console.log(retornaMeuNome());
+console.log("Função: ", retornaMeuNome());
 
 function digaOi(): void {
   // tipo vazio
-  console.log("Oi");
+  console.log("Oi", "Oi");
 }
 
 digaOi();
@@ -84,7 +84,7 @@ console.log(multiplicar(2, 5));
 let calculo: (numeroA: number, numeroB: number) => number;
 
 calculo = multiplicar;
-console.log(calculo(5, 6));
+console.log("Calculo: ", calculo(5, 6));
 
 // objetos
 let usuario: { nome: string; idade: number } = {
@@ -127,7 +127,7 @@ let funcionario2: Funcionario = {
 };
 
 console.log(funcionario.supervisores);
-console.log("Horário 8h: ", funcionario.baterPonto(8));
+console.log("Horário 8h: ", funcionario.baterPonto(13));
 console.log("Horario 9h: ", funcionario.baterPonto(5));
 
 // union types

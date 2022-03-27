@@ -31,6 +31,37 @@ const somar = function (n1: number, n2: number): number {
 
 console.log("Soma: ", somar(2, 2));
 
-
 const subtrair = (n1: number, n2: number) => n1 - n2;
 console.log("Subtração: ", subtrair(25, 5));
+
+// this
+
+function normalComThis() {
+  // console.log(this);
+}
+
+const normalComThisEspecial = normalComThis.bind(3);
+normalComThisEspecial();
+
+const arrowComThis = () => {
+  // return console.log(this); // window
+};
+
+arrowComThis();
+
+// Parâmetros padrão
+function contagemRegressiva(
+  inicio: number = 3,
+  fim: number = inicio - 5
+): void {
+  console.log(inicio);
+
+  while (inicio > fim) {
+    inicio--;
+    console.log(inicio);
+  }
+  console.log("Fim!");
+}
+
+contagemRegressiva();
+contagemRegressiva(5);

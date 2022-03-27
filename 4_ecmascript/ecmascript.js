@@ -27,4 +27,3 @@ const somar = function (n1, n2) {
 console.log("Soma: ", somar(2, 2));
 const subtrair = (n1, n2) => n1 - n2;
 console.log("Subtração: ", subtrair(25, 5));
-//# sourceMappingURL=ecmascript.js.map

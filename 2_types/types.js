@@ -84,6 +84,7 @@ let funcionario = {
         }
     },
 };
+// alias
 let funcionario2 = {
     supervisores: ["Bia", "Carlos"],
     baterPonto(horario) {

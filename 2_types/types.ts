@@ -115,6 +115,8 @@ let funcionario: {
   },
 };
 
+
+// alias
 let funcionario2: Funcionario = {
   supervisores: ["Bia", "Carlos"],
   baterPonto(horario: number): string {
@@ -162,8 +164,9 @@ const produto = {
 };
 
 produto.validarProduto();
-// altura = null
 
+
+// altura = null
 let altura = 12;
 let alturaOpcional: null | number = 12;
 alturaOpcional = null;

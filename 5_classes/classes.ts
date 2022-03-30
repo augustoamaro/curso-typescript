@@ -48,11 +48,20 @@ class Produto {
     public preco: number,
     public desconto: number = 0
   ) {}
+
+  // método chama com this
+  precoComDesconto(): number {
+    return this.preco * (1 - this.desconto);
+  }
+
+  public resumo(): string {
+    return `${this.nome} custa R$${this.precoComDesconto()}`;
+  }
 }
 
 const produto1 = new Produto("Banana", 1.99);
 produto1.desconto = 0.06;
-console.log(produto1);
+console.log(produto1.resumo());
 
 const produto2 = new Produto("Melancia", 3.99, 0.5);
 console.log(produto2);

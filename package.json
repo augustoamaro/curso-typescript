@@ -4,7 +4,8 @@
   "description": "Curso Leonardo Leitão TypeScript",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "dev": "tsc -w & npm run start"
   },
   "repository": {
     "type": "git",
